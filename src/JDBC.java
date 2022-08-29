@@ -3,9 +3,7 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 
 public class JDBC {
-
     public static void main(String[] args) {
-
         try {
             /* Making a connection to sql DB */
             String userName = "root";
@@ -22,8 +20,6 @@ public class JDBC {
         } catch (Exception e) {
             e.printStackTrace();
         }
-
-
-
     }
 }
+
